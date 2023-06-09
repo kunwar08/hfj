@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Editor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blog Editor</h1>
+        <div id="blog-editor">
+            <div class="editor-panel">
+                <h2>Add Content</h2>
+                <textarea id="content-input" placeholder="Enter your blog content here..."></textarea>
+                <button id="add-text-button">Add Text</button>
+                <input type="file" id="file-input">
+                <button id="add-image-button">Add Image</button>
+                <input type="text" id="video-input" placeholder="Enter YouTube video URL">
+                <button id="add-video-button">Add Video</button>
+            </div>
+            <div class="editor-panel">
+                <h2>Preview</h2>
+                <div id="blog-preview"></div>
+                <button id="publish-button">Publish</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
